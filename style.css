@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(images/homefix.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding-left: 60%;
+    padding-top: 2.5%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav-links{
+    flex: 100;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px 30px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #6ddceb;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    text-align: left;
+}
+.text-box h1{
+    font-size: 60px;
+}
+.hero-btn{
+    display:inline-flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+    bottom: -75%;
+    left: 40%;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #6ddceb;
+    background: #6ddceb;
+    transition: 1s;
+}
+
+/*--------booking-------*/
+
+.booking{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+}
+.A3 h1{
+    font-size: 44px;
+    font-weight: 600;
+}
+.A3 p{
+    color: rgb(87, 87, 87);
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+}
+.A3 img{
+    width: auto;
+    float: left;
+    padding-right: 20px;         
+}
+.hero-btn1{
+    display:inline-flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    bottom: -52%;
+    left: 52%;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+.hero-btn1:hover{
+    border: 1px solid #6ddceb;
+    background: #6ddceb;
+    transition: 1s;
+}
+
+
+
