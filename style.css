@@ -118,6 +118,28 @@ nav-links{
     background: #6ddceb;
     transition: 1s;
 }
+/*------footer------*/
 
-
-
+.footer{
+    max-height: 100vh;
+    width: 100%;   
+    text-align: center;    
+}
+.footer h2{
+    color: #ffffff;
+    margin-top: 100px;
+    position: relative;
+    text-align: left;
+    top: 20%;
+    right: 40%;
+    font-weight: 600px;    
+}
+.icons .fab{
+    color: #000000;
+    margin: 125px 20px;
+    margin-bottom: 0%;
+    position: relative;
+    top: 8%;
+    right: 33%;
+    cursor: pointer;
+}
