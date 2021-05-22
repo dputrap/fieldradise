@@ -11,7 +11,7 @@
     background-size: cover;
     position: relative;
 }
-nav{
+nav {
     display: flex;
     padding-left: 60%;
     padding-top: 2.5%;
@@ -86,11 +86,12 @@ nav-links{
 .A3 h1{
     font-size: 44px;
     font-weight: 600;
+    text-decoration: overline rgb(235, 112, 11);
 }
 .A3 p{
     color: rgb(87, 87, 87);
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 22px;
     padding: 10px;
 
@@ -98,7 +99,8 @@ nav-links{
 .A3 img{
     width: auto;
     float: left;
-    padding-right: 20px;         
+    padding-right: 20px;
+    padding-bottom: 100px;         
 }
 .hero-btn1{
     display:inline-flex;
@@ -118,28 +120,91 @@ nav-links{
     background: #6ddceb;
     transition: 1s;
 }
+
 /*------footer------*/
 
 .footer{
-    max-height: 100vh;
-    width: 100%;   
-    text-align: center;    
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(70, 56, 38);
+    margin-top: 225px;
+    position: relative;
+    margin-bottom: 0%;
 }
 .footer h2{
     color: #ffffff;
-    margin-top: 100px;
+    margin-top: 80px;
     position: relative;
     text-align: left;
     top: 20%;
-    right: 40%;
+    right: 39.5%;
     font-weight: 600px;    
 }
 .icons .fab{
-    color: #000000;
-    margin: 125px 20px;
+    color: #ffffff;
+    margin: 100px 20px;
     margin-bottom: 0%;
     position: relative;
     top: 8%;
-    right: 33%;
+    right: 41%;
     cursor: pointer;
+}
+/*--------booking-------*/
+.sub-header{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: -20%;    
+}
+.sub-header img{
+    width: auto;
+    float: left;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 0%;    
+}
+.nav-links1{
+    flex: 100;
+    
+}
+.nav-links1 ul li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 34px;
+    margin-top: 23px;
+    right: 40%;
+    position: relative;   
+}
+.nav-links1 ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links1 ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #6ddceb;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links1 ul li:hover::after{
+    width: 100%;
+}
+/*-------------hlmbook--------*/
+.hlmbook{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+}
+.hlmbook img{
+    width: auto;
+    float: left;
+
 }
