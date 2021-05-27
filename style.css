@@ -126,7 +126,7 @@ nav-links{
 .footer{
     height: 25vh;
     width: 100%;
-    background-color: rgb(70, 56, 38);
+    background-color: rgb(235, 112, 11);
     margin-top: 225px;
     position: relative;
     margin-bottom: 0%;
@@ -172,11 +172,12 @@ nav-links{
     
 }
 .nav-links1 ul li{
+    text-align: right;
     list-style: none;
     display: inline-block;
-    padding-left: 34px;
+    padding-left: 25px;
     margin-top: 23px;
-    right: 40%;
+    right: 50%;
     position: relative;   
 }
 .nav-links1 ul li a{
