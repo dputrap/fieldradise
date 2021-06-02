@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(images/homefix.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav {
+    display: flex;
+    padding-left: 60%;
+    padding-top: 2.5%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav-links{
+    flex: 100;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px 30px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #6ddceb;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 80%;
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 12%;
+    text-align: left;
+}
+.text-box h1{
+    font-size: 60px;
+}
+.hero-btn{
+    display:inline-flex;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+    bottom: -75%;
+    left: 40%;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #6ddceb;
+    background: #6ddceb;
+    transition: 1s;
+}
+
+/*--------booking-------*/
+
+.booking{
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+}
+.A3 h1{
+    font-size: 44px;
+    font-weight: 600;
+    text-decoration: overline rgb(235, 112, 11);
+}
+.A3 p{
+    color: rgb(87, 87, 87);
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 22px;
+    padding: 10px;
+
+}
+.A3 img{
+    width: auto;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 100px;         
+}
+.hero-btn1{
+    display:inline-flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    bottom: -52%;
+    left: 52%;
+    padding: 12px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+.hero-btn1:hover{
+    border: 1px solid #6ddceb;
+    background: #6ddceb;
+    transition: 1s;
+}
+
+/*------footer------*/
+
+.footer{
+    height: 25vh;
+    width: 100%;
+    background-color:rgb(0, 0, 0);
+    margin-top: 225px;
+    position: relative;
+    margin-bottom: 0%;
+}
+.footer h2{
+    color: #ffffff;
+    margin-top: 80px;
+    position: relative;
+    text-align: center;
+    top: 15%;
+    right: 26%;
+    font-weight: 600px;  
+}
+.icons .fab{
+    color: #ffffff;
+    margin: 100px 20px;
+    margin-bottom: 0%;
+    position: relative;
+    text-align: center;
+    top: 8%;
+    right: 20%;
+    cursor: pointer;
+}
+/*--------booking-------*/
+.sub-header{
+    height: 20vh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: -20%;    
+}
+.sub-header img{
+    width: auto;
+    float: left;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 0%;    
+}
+.nav-links1{
+    flex: 100;
+    
+}
+.nav-links1 ul li{
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    padding-left: 25px;
+    margin-top: 23px;
+    right: 50%;
+    position: relative;   
+}
+.nav-links1 ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links1 ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #6ddceb;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links1 ul li:hover::after{
+    width: 100%;
+}
+/*-------------hlmbook--------*/
+.hlmbook{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+}
+.hlmbook img{
+    width: auto;
+    float: left;
+    padding-right: 20px;
+    text-decoration: underline rgb(235, 112, 11);
+}
+.hlmbook h1{
+    font-size: 44px;
+    font-weight: 600;
+    text-decoration: overline rgb(235, 112, 11);
+}
+.hlmbook p{
+    color: rgb(87, 87, 87);
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 22px;
+    padding: 10px;
+}
+.hero-btn2{
+    display:inline-flex;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    margin-top: 175px;
+    margin-left: 75px;
+    bottom: 9;
+    left: 52%;
+    padding: 24px 120px;
+    font-size: 24px;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+.hero-btn2:hover{
+    border: 1px solid #6ddceb;
+    background: #6ddceb;
+    transition: 1s;
+}
+/*--------preview gambar-------*/
+.preview{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 160px;
+}
+.preview img{
+    width: auto;
+    margin-right: 7px;
+    margin-bottom: 75px;
+}
+.fasilitas{
+    width: auto;
+    margin: auto;
+    text-align: left;
+}
+.fasilitas img{
+    width: auto;
+    float: right;
+    margin-top: 12.5px;
+    margin-right: -3.75px;
+}
